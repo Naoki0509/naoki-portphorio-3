@@ -3,7 +3,7 @@ import Links from "next/link";
 
 export function Header() {
 	return (
-		<header className="w-full bg-gray-200">
+		<header className="w-full flex flex-row bg-gray-100">
 			<ul>
 				<li>
 					<Link href="/">
