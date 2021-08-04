@@ -11,16 +11,17 @@ export default function Home() {
 			</Head>
 			<Header />
 			<main className="flex flex-col items-center w-full flex-1 text-center">
-				<h1>profile</h1>
-				<p>Naoki Hayashda</p>
-				<p>2002.05.09</p>
-				<p>Yokohama,Japan</p>
-
-				<p>横浜在住の１９歳フリーランスエンジニアです。</p>
-				<p>
-					中学校２年生から３年生にかけて不登校を経験し、そこから自分のやりたいことは何かを考え、フリーランスエンジニアという道を選びました。
-				</p>
-
+				mo{" "}
+				<div className="flex flex-col w-full bg-gray-100">
+					<h1 className="text-6xl font-serif">profile</h1>
+					<div className="bg-gray-300 pt-16 w-4/5">
+						<div className=" bg-red-100 float-left">
+							<p>2002.05.09</p>
+							<p>Yokohama,Japan</p>
+							<p>Naoki Hayashda</p>
+						</div>
+					</div>
+				</div>
 				<h1>Skill Set</h1>
 				<p>HTML</p>
 				<p>CSS</p>
