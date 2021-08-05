@@ -1,4 +1,5 @@
 import Head from "next/head";
+import { Card } from "../Components/card";
 import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
 
@@ -17,15 +18,7 @@ export default function Home() {
 					<p>Yokohama,Japan</p>
 					<p>Naoki Hayashda</p>
 				</div>
-				<div>
-					<h1>Skill Set</h1>
-					<p>HTML</p>
-					<p>CSS</p>
-					<p>Javascript</p>
-					<p>Reat</p>
-					<p>Next.js</p>
-					<p>Tailwind CSS</p>
-				</div>
+				<Card />
 			</main>
 
 			<Footer />
