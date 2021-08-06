@@ -1,12 +1,25 @@
+import Link from "next/link";
 import Links from "next/link";
 
 export function Header() {
 	return (
-		<header className="w-full bg-gray-200">
+		<header className="w-full flex flex-row bg-gray-100">
 			<ul>
-				<li>Home</li>
-				<li>About</li>
-				<li>Blog</li>
+				<li>
+					<Link href="/">
+						<a>Home</a>
+					</Link>
+				</li>
+				<li>
+					<Link href="/about">
+						<a>About</a>
+					</Link>
+				</li>
+				<li>
+					<Link href="/blog">
+						<a>Blog</a>
+					</Link>
+				</li>
 			</ul>
 		</header>
 	);
