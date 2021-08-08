@@ -15,7 +15,12 @@ export function Card() {
 		<div className="w-full bg-gray-300 ">
 			{ITEMS.map((item) => {
 				return (
-					<Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden">
+					<Box
+						maxW="100px"
+						borderWidth="1px"
+						borderRadius="lg"
+						overflow="hidden"
+					>
 						<Image src={item.src} alt={item.alt} boxsize="80px" />
 					</Box>
 				);
