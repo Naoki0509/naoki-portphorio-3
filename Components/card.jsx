@@ -13,8 +13,8 @@ export function Card() {
 		<div className=" w-full flex flex-row flex-wrap bg-gray-100">
 			{ITEMS.map((item) => {
 				return (
-					<div className="px-6">
-						<div className="flex justify-center h-64 w-52 border border-black">
+					<div className="p-6">
+						<div className="flex justify-center h-64 w-52 shadow-lg rounded-lg">
 							<div className="w-32 h-32 bg-gray-300">Image</div>
 						</div>
 					</div>

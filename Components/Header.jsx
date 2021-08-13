@@ -1,11 +1,10 @@
 import Link from "next/link";
-import Links from "next/link";
 
 export function Header() {
 	return (
-		<header className="w-full flex flex-row bg-gray-100">
-			<div className="font-black ">N's Blog</div>
-			<ul className="flex flex-row ">
+		<header className="w-full flex flex-row">
+			<div className="pl-3 font-serif pr-32  text-4xl font-black">N's Blog</div>
+			<ul className="flex flex-row font-serif text-3xl">
 				<li className="px-8">
 					<Link href="/">
 						<a>Home</a>
