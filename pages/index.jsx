@@ -10,14 +10,8 @@ export default function Home() {
 				<title>Create Next App</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<Header />
+			{/* <Header /> */}
 			<main className="flex flex-col items-center w-full flex-1 text-center">
-				<div className="flex flex-col justify-center w-full h-80 bg-gray-200">
-					<h1 className="text-6xl font-serif">Profile</h1>
-					<p>2002.05.09</p>
-					<p>Yokohama,Japan</p>
-					<p>Naoki Hayashda</p>
-				</div>
 				<Card />
 			</main>
 
