@@ -10,7 +10,7 @@ export default function Home() {
 				<title>Create Next App</title>
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			{/* <Header /> */}
+			<Header />
 			<main className="flex flex-col items-center w-full flex-1 text-center">
 				<Card />
 			</main>
