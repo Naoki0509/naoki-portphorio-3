@@ -10,7 +10,7 @@ const ITEMS = [
 ];
 export function Card() {
 	return (
-		<div className=" w-full flex flex-row flex-wrap bg-gray-100">
+		<div className=" w-full flex flex-row justify-center items-center flex-wrap">
 			{ITEMS.map((item) => {
 				return (
 					<div className="p-6">
