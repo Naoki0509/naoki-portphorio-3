@@ -1,8 +1,9 @@
 import Head from "next/head";
-import { Card } from "../Components/card";
+import { About } from "../Components/About";
 import { Footer } from "../Components/Footer";
 import { Header } from "../Components/Header";
 import { Profile } from "../Components/Profile";
+import { Skill } from "../Components/skill";
 
 export default function Home() {
 	return (
@@ -14,7 +15,8 @@ export default function Home() {
 			<Header />
 			<main className="flex flex-col items-center w-full flex-1 text-center pt-10">
 				<Profile />
-				<Card />
+				<About />
+				<Skill />
 			</main>
 
 			<Footer />
