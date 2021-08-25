@@ -3,34 +3,40 @@ import { FiTwitter, FiInstagram } from "react-icons/fi";
 
 export function Header() {
 	return (
-		<header className=" items-center justify-between">
-			<nav>
+		<div>
+			<header className="m-0 p-0 fixed inset-x-0 flex justify-between w-full shadow bg-gray-300  ">
+				<Link href="/">
+					<a className="h-[60px] leading-[60px] text-brack font-bold text-[2em] no-underline cursor-pointer pl-[20px]  ">
+						Logo
+					</a>
+				</Link>
+				<div className=" absolute top-0 right-0 w-[60px] h-[60px] bg-purple-300 cursor-pointer flex justify-center items-center"></div>
 				<div>
-					<ui className="flex flex-row list-none text-2xl">
-						<li className="px-3">
+					<ui>
+						<li>
 							<Link href="/">
-								<a>Home</a>
+								<a>HOME</a>
 							</Link>
 						</li>
-						<li className="px-3">
+						<li>
 							<Link href="/about">
 								<a>About</a>
 							</Link>
 						</li>
-						<li className="px-3">
+						<li>
 							<Link href="/blog">
 								<a>Blog</a>
 							</Link>
 						</li>
-						<li className="px-3">
-							<Link href="/blog">
-								<a>Access</a>
+						<li>
+							<Link href="/acess">
+								<a>Acess</a>
 							</Link>
 						</li>
 					</ui>
 				</div>
-			</nav>
-		</header>
+			</header>
+		</div>
 
 		// <nav className="w-full h-16 flex flex-row justify-between  bg-gray-100">
 		// 	<div className="flex justify-center items-center">

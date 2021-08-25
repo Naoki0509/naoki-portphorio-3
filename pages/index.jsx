@@ -7,7 +7,7 @@ import { Skill } from "../Components/skill";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen font-serif">
+		<div className="flex flex-col items-center justify-center min-h-screen font-serif box-border">
 			<Head>
 				<title>Create Next App</title>
 				<link rel="icon" href="/favicon.ico" />
